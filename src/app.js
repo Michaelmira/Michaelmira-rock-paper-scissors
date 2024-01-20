@@ -6,6 +6,8 @@ import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
 window.onload = function() {
+  const initGame = () => {};
+
   let playGame = confirm("Shall we play rock, paper, or scissors?");
   if (playGame) {
     // play
